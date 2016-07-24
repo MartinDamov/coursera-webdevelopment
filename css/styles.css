@@ -56,13 +56,17 @@ body {
 }
 
 #bg {
-  background-color: #595959;	
+  background-color: #595959;
 }
 
 #text {
   background-color: #595959;
   margin-right: 8px;
   margin-left: 8px;
+}
+
+#cont {
+  width: 100%;
 }
 
 .navbar-header button.navbar-toggle {
