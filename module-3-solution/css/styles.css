@@ -1,0 +1,82 @@
+body {
+  font-size: 20px;
+  color: #fff;
+  background-color: #ffffff;
+  font-family: 'Economica', sans-serif; 
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #0033cc;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+  position: fixed;
+  /*padding-bottom: 10px;*/
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Food, LLS */
+  font-family: 'Economica', sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #b3b3b3; 
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#our-menu {
+  margin-top: 70px;
+  color: black;
+}
+
+#bg {
+  background-color: #595959;	
+}
+
+#text {
+  background-color: #595959;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav > li {
+  border-bottom: 2px solid black;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav a { 
+	background-color: #80b3ff;
+    font-size: 1.2em;
+   	}
+}
